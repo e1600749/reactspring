@@ -6,7 +6,7 @@ jdk:
   sudo. required
   services:
   - postgresql
-  
+
 before_install:
- - chmod +x mvnw
- - psql -c "CREATE DATABASE testing_db;" -U postgres
+  - chmod +x mvnw
+  - psql -c "CREATE DATABASE testing_db;" -U postgres
